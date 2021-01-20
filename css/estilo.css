@@ -1,0 +1,186 @@
+*{ /* config para zerar a pagina toda */
+	margin: 0px; /* margem externa do site inteiro zerado */
+ 	padding: 0px; /* margem interna do site inteiro zerado */
+}
+
+body{
+	font-family: "Calibri", Helvetica, Arial;
+
+}
+
+header{
+	width: 100%; /* tamanho do header considerando a config responsiva */
+	height: 70px;
+	background-color: #e28f2e;
+	position: fixed; /* fixação do menu*/
+}
+
+/* ###### MENU ###### */
+
+nav{ /*estilo da barra de navegação, famoso MENU */
+	font-size: 19px; /* tamanho da fonte */
+}
+
+nav ul{ /* estilo lista */
+	list-style-type: none;
+}
+
+nav li{ 
+	float: left; /* configurar o menu para horizontal */
+	margin-left: 5px;
+	padding: 5px 10px; /* margem interna cima/baixa 5px e direita/esquerda 10px */
+	color: white; /* cor das palavras*/
+	font-weight: bold; /* fonte em negrito*/
+	line-height: 3.2;
+}
+
+nav ul .BOTAO:hover{ /* config mouse sobre */
+	background-color: rgba(255, 255, 255, 0.2);	
+}
+
+.logo{ /* config logo*/
+	float: left;
+	margin: 10px 20px 25px 15px;
+}
+
+
+/* ###### CONTEUDO - HOME PAGE ###### */
+
+main{ /* estilo conteudo principal*/
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto; /* margem do conteudo */
+}
+
+#banner_img{
+	width: 1000px;
+	height: 300px;
+	float: left;
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.fotoshome{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.conteudo{
+	float: left;
+}
+
+article{
+	margin-bottom: 10px;
+	text-align: justify; /*texto alinhado esquerda e direita */
+}
+
+/* ######  Rodapé ###### */
+
+footer{
+	clear: both; /* tag para evitar que o rodapé pegue o estilo das outras sessões*/
+	background-color: #e28f2e;
+	color: white; /*cor do texto*/
+	text-align: center;
+	padding: 30px 0;
+
+}
+
+
+/* ###### SOBRE ###### */
+
+.fotossobre{
+	width: 20%;
+	height: 160px;
+	float: left;
+}
+
+.asobre{
+	width: 80%;
+	height: 140px;
+	padding-top: 20px;
+	float: left;
+}
+
+/* ###### CONTATO ###### */
+
+#mapa{
+	margin-top: 70px;
+	float: left;
+}
+
+#info{
+	width: 370px;
+	float: left;
+}
+
+#formulario{
+	width: 600px;
+	float: right;
+}
+
+#formulario label{
+	font-size: 18px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 600px;
+	height: 28px;
+	font-size: 15px;
+}
+
+#formulario div textarea{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 600px;
+	height: 60px;
+	font-size: 15px;
+	resize: none;
+}
+
+#formulario .BOTAO{
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+#ENVIAR{
+	background-color: darkgreen;
+	border: 1px solid #8bac7f;
+}
+
+#LIMPAR{
+	background-color: red;
+	border: 1px solid #b89898;
+}
+
+#formulario h2{
+	font-size: 22px;
+	color: orange;
+	text-align: center;
+	margin: 40px 0;
+	font-weight: bold;
+	text-transform: uppercase; /*deixa os textos em caixa alta*/
+}
+
+
+/*######## GALERIA ##########*/
+
+.galeria{
+	margin: 10px;
+	text-align: center;
+}
+
+.galeria img{
+	padding: 20px;
+}
